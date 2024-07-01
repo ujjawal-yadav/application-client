@@ -24,7 +24,6 @@ const useAuth = () => {
     const fetchLoggedInUser = async () => {
         try {
             const response = await axios.get('https://application-ac-358e236b7f33.herokuapp.com/api/v1/logged-in-user', { withCredentials: true });
-            console.log(response);
             setLoggedInUser(response.data.loggedInUser);
             setError(null);
         } catch (err) {
