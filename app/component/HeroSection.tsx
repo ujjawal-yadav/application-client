@@ -100,8 +100,8 @@ const HeroSection = () => {
 
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center  justify-center modal-overlay" onClick={handleModalClick}>
-          <div className="bg-[#F7F4FE] rounded-lg p-6 top-[40px] relative w-[90%] max-w-md">
-            <button className="absolute top-2 right-2 text-xl font-bold text-black" onClick={closeModal}>×</button>
+          <div className="bg-[#F7F4FE] rounded-lg p-5 top-[40px] relative w-[90%] max-w-lg">
+            <button className="absolute top-2 right-3 text-xl font-bold text-black" onClick={closeModal}>×</button>
             <h2 className="text-xl font-bold text-center mb-4">Internship Project</h2>
             <p className='mb-3'>During my internship at Binarama, I played a pivotal role in developing a learning management platform for a client. I designed and implemented the wishlist, cart, and payment sections, ensuring a seamless user experience. Additionally, I developed an instructor verification system to streamline the validation process.</p>
             <p>Working in Agile 10-day sprints, I contributed to delivering key features within deadlines. I implemented real-time notifications using Socket.IO to provide instant updates. My technical expertise encompassed Socket.io, Redis, MongoDB, Next.js, TypeScript, Express, Postman, and JWT tokens. Furthermore, I conducted comprehensive manual, unit, and integration testing to ensure the reliability and functionality of the system.</p>
