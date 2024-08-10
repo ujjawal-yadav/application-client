@@ -42,7 +42,7 @@ const HeroSection = () => {
               <h2>And, I want to </h2>
               <h2>join the ArmorCode team</h2>
             </div>
-            <a className='h-[66px]' href='https://drive.google.com/file/d/1d-AgQu-nMgRfwNef_Xnwz5re2oeLbm-R/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+            <a className='h-[66px]' href='https://drive.google.com/file/d/13acpD4s1x8aAeV1cF5MU9TpddjE3ZQzL/view?usp=sharing' target="_blank" rel="noopener noreferrer">
               <button className="bg-[#35198E] hover:border-[1px] focus:ring-1 focus:ring-[#A183F9] hover:border-[#A183F9] text-white text-xs font-semibold py-3 px-4 rounded-full mt-6 w-[150px] hover:px-[15px] hover:py-[11px]">
                 My resume
               </button>
